@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;1,600&display=swap');
+
+$ff-primary: 'Poppins', sans-serif;
+$ff-secondary: 'Open Sans', sans-serif;
+$clr-pink-500: hsl(322, 100%, 66%);
+$clr-cyan-100: hsl(193, 100%, 96%);
+$clr-cyan-900: hsl(192, 100%, 9%);
+$clr-grayish-blue: hsl(208, 11%, 55%);
+
+body {
+  font-family: $ff-secondary;
+  font-size: 18px;
+  font-weight: 400;
+  background-image: url('./assets/images/bg-hero-mobile.svg');
+  background-repeat: no-repeat;
+}
