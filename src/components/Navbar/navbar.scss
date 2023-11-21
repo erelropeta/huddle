@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: clamp(1.5rem, 0.972rem + 2.254vw, 3rem);
+}
+
+.logo {
+  display: block;
+  height: clamp(1.05rem, 0.371rem + 1.81vw, 2rem);
+}

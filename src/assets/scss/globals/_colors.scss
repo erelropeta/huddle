@@ -3,4 +3,8 @@
   --clr-cyan-100: hsl(193, 100%, 96%);
   --clr-cyan-900: hsl(192, 100%, 9%);
   --clr-grayish-blue-500: hsl(208, 11%, 55%);
+  --clr-gray-200: #fefefe;
+  --clr-body-bg: var(--clr-cyan-100);
+  --clr-btn-link-text-dark: var(--clr-cyan-900);
+  --clr-btn-link-text-dark-hover: var(--clr-grayish-blue-500);
 }

@@ -1,5 +1,7 @@
+import Home from './pages/Home/Home';
+
 function App() {
-  return <>Huddle App</>;
+  return <Home />;
 }
 
 export default App;

@@ -1,5 +1,16 @@
 @forward 'globals';
 
+:root {
+  --border-l: calc(100vh - 50%);
+}
+
 body {
-  background-color: var(--clr-pink-500);
+  background-color: var(--clr-body-bg);
+}
+
+.container {
+  width: 88.8%;
+  min-width: 343px;
+  max-width: 1280.15px;
+  margin-inline: auto;
 }

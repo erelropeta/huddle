@@ -1,0 +1,22 @@
+.btn-link {
+  font-family: var(--ff-btn-link);
+  font-weight: 700;
+  border-radius: var(--border-l);
+  padding-block: clamp(0.25rem, 0.056rem + 0.826vw, 0.8rem)
+    clamp(0.35rem, 0.139rem + 0.901vw, 0.95rem);
+  padding-inline: clamp(1.4rem, 0.467rem + 3.981vw, 4.05rem);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+
+  &--white {
+    color: var(--clr-btn-link-text-dark);
+    font-size: 0.625rem;
+    font-size: clamp(0.625rem, 0.537rem + 0.376vw, 0.875rem);
+    background-color: #fff;
+  }
+
+  &--white:hover {
+    color: var(--clr-btn-link-text-dark-hover);
+  }
+}

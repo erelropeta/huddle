@@ -5,6 +5,7 @@
   --ff-secondary: 'Open Sans', sans-serif;
   --heading-text: var(--ff-primary);
   --body-text: var(--ff-secondary);
+  --ff-btn-link: var(--ff-secondary);
 }
 
 body {
@@ -21,4 +22,8 @@ h3 {
 
 p {
   margin-top: 0;
+}
+
+a {
+  text-decoration: none;
 }
