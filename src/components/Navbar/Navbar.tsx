@@ -1,7 +1,7 @@
 import './navbar.scss';
 
 import Logo from '../../assets/images/logo.svg';
-import BtnLink from '../Button/BtnLink';
+import BtnLink from '../BtnLink/BtnLink';
 
 const Navbar = () => {
   return (

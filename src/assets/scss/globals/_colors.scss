@@ -1,10 +1,15 @@
 :root {
+  --clr-pink-200: #ff9bdb;
   --clr-pink-500: hsl(322, 100%, 66%);
   --clr-cyan-100: hsl(193, 100%, 96%);
   --clr-cyan-900: hsl(192, 100%, 9%);
   --clr-grayish-blue-500: hsl(208, 11%, 55%);
   --clr-gray-200: #fefefe;
-  --clr-body-bg: var(--clr-cyan-100);
+  --clr-body-bg: var(--clr-gray-200);
   --clr-btn-link-text-dark: var(--clr-cyan-900);
   --clr-btn-link-text-dark-hover: var(--clr-grayish-blue-500);
+  --clr-hero-bg: var(--clr-cyan-100);
+  --primary-btn-text: var(--clr-cyan-100);
+  --primary-btn-bg: var(--clr-pink-500);
+  --primary-btn-bg-hover: var(--clr-pink-200);
 }

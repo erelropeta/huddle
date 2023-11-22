@@ -1,4 +1,68 @@
+.c-hero {
+  height: auto;
+  background-color: var(--clr-hero-bg);
+  background-image: url('../../assets/images/bg-hero-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+  @media (min-width: 768px) {
+    background-image: url('../../assets/images/bg-hero-desktop.svg');
+    background-size: cover;
+  }
+}
+
 .hero {
-  height: 500px;
-  background-color: var(--clr-cyan-100);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  padding-block: clamp(8.2rem, 7.566rem + 2.704vw, 10rem)
+    clamp(2.1rem, 1.466rem + 2.704vw, 3.9rem);
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: 3.5rem;
+    text-align: left;
+    padding-inline: 0;
+  }
+
+  &__info {
+    @media (min-width: 1024px) {
+      align-self: center;
+      width: 75%;
+    }
+  }
+
+  &__title {
+    width: 87%;
+    max-width: 25rem;
+    font-size: clamp(1.5rem, 1.158rem + 1.457vw, 2.47rem);
+    text-transform: capitalize;
+    margin-bottom: clamp(1.35rem, 1.227rem + 0.526vw, 1.7rem);
+    margin-inline: auto;
+
+    @media (min-width: 1024px) {
+      max-width: none;
+      margin-inline: 0;
+    }
+  }
+
+  &__copy {
+    font-size: clamp(1rem, 0.956rem + 0.188vw, 1.125rem);
+    width: 87%;
+    max-width: 27rem;
+    margin-bottom: clamp(2.35rem, 2.121rem + 0.977vw, 3rem);
+    margin-inline: auto;
+
+    @media (min-width: 1024px) {
+      width: auto;
+      max-width: none;
+      margin-inline: 0;
+    }
+  }
+
+  &__illustration {
+    margin-inline: auto;
+  }
 }

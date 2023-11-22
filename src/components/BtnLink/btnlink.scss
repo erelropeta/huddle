@@ -1,6 +1,7 @@
 .btn-link {
   font-family: var(--ff-btn-link);
   font-weight: 700;
+  text-transform: capitalize;
   border-radius: var(--border-l);
   padding-block: clamp(0.25rem, 0.056rem + 0.826vw, 0.8rem)
     clamp(0.35rem, 0.139rem + 0.901vw, 0.95rem);
@@ -9,9 +10,21 @@
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 
+  &--primary {
+    color: var(--primary-btn-text);
+    font-size: clamp(0.7rem, 0.638rem + 0.263vw, 0.875rem);
+    background-color: var(--primary-btn-bg);
+    padding-block: clamp(0.7rem, 0.594rem + 0.451vw, 1rem)
+      clamp(0.7rem, 0.559rem + 0.601vw, 1.1rem);
+    padding-inline: clamp(3.75rem, 3.539rem + 0.901vw, 4.35rem);
+  }
+
+  &--primary:hover {
+    background-color: var(--primary-btn-bg-hover);
+  }
+
   &--white {
     color: var(--clr-btn-link-text-dark);
-    font-size: 0.625rem;
     font-size: clamp(0.625rem, 0.537rem + 0.376vw, 0.875rem);
     background-color: #fff;
   }
