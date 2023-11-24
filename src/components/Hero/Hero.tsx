@@ -1,4 +1,7 @@
+import React from 'react';
+
 import './hero.scss';
+
 import heroIllustration from '../../assets/images/illustration-mockups.svg';
 
 import BtnLink from '../BtnLink/BtnLink';

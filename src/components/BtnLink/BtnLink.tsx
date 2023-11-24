@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './btnlink.scss';
 
 interface BtnLink {

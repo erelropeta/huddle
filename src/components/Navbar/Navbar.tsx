@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './navbar.scss';
 
 import Logo from '../../assets/images/logo.svg';
