@@ -1,0 +1,14 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-block: clamp(3.65rem, 1.414rem + 9.54vw, 10rem);
+
+  &__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: -1000px;
+    overflow: hidden;
+  }
+}
